@@ -225,7 +225,7 @@ const PRODUCTOS = [
   {
     n: "Cruz de resina",
     c: "Religiosos y recuerdos",
-    fotos: [],
+    fotos: ["imagenes/vela1.jpg"],
     precio: "$50"
   },
   {
@@ -233,7 +233,6 @@ const PRODUCTOS = [
     c: "Religiosos y recuerdos",
     fotos: [
       "imagenes/vela.jpg",
-      "imagenes/vela1.jpg",
       "imagenes/vela2.jpg",
       "imagenes/vela3.jpg",
       "imagenes/vela4.jpg"
