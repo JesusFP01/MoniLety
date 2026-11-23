@@ -35,7 +35,7 @@
         <span class="sec-tag">Catálogo en línea</span>
         <h2>Nuestras piezas</h2>
       </div>
-      <p class="sec-desc" id="counter">Mostrando todos los artículos disponibles bajo pedido.</p>
+      <p class="sec-desc" id="counter">Piezas elaboradas bajo pedido · Se solicita anticipo para confirmar tu fecha.</p>
     </div>
 
     <div class="toolbar">
@@ -87,7 +87,7 @@ function pintar() {
     return okCat && okTxt;
   });
 
-  document.getElementById("counter").textContent = `Mostrando ${lista.length} ${lista.length === 1 ? "pieza" : "piezas"}${filtro !== "Todos" ? ` en ${filtro}` : ""}.`;
+  document.getElementById("counter").textContent = `Mostrando ${lista.length} ${lista.length === 1 ? "pieza" : "piezas"}${filtro !== "Todos" ? ` en ${filtro}` : ""} · Se solicita anticipo para confirmar tu pedido.`;
 
   document.getElementById("pgrid").innerHTML = lista.length ? lista.map((p, idx) => {
     const esFijo = p.precio && p.precio.startsWith("$") && p.precio !== "$00";
