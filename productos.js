@@ -226,7 +226,7 @@ const PRODUCTOS = [
     precio: "$50"
   },
   {
-    n: "Vela de cruz",
+    n: "Velas",
     c: "Religiosos y recuerdos",
     fotos: [
       "imagenes/vela.jpg",
