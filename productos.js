@@ -6,10 +6,7 @@ const PRODUCTOS = [
   {
     n: "Centros de mesa",
     c: "Fiestas y eventos",
-    fotos: [
-      "imagenes/centrodemesa1.jpg",
-      "imagenes/centrodemesa2.jpg"
-    ],
+    fotos: ["imagenes/centrodemesa1.jpg"],
     precio: "Precio según diseño"
   },
   {
@@ -225,7 +222,7 @@ const PRODUCTOS = [
   {
     n: "Cruz de resina",
     c: "Religiosos y recuerdos",
-    fotos: ["imagenes/vela1.jpg"],
+    fotos: ["imagenes/centrodemesa2.jpg"],
     precio: "$50"
   },
   {
@@ -233,6 +230,7 @@ const PRODUCTOS = [
     c: "Religiosos y recuerdos",
     fotos: [
       "imagenes/vela.jpg",
+      "imagenes/vela1.jpg",
       "imagenes/vela2.jpg",
       "imagenes/vela3.jpg",
       "imagenes/vela4.jpg"
