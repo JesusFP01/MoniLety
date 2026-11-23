@@ -1146,3 +1146,48 @@ footer {
   border-radius: 999px;
   letter-spacing: 0.04em;
 }
+
+/* Banner de Facebook en catálogo */
+.fb-banner {
+  margin-top: 48px;
+  padding: 28px 32px;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.fb-banner h3 {
+  margin: 0 0 6px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.55rem;
+}
+
+.fb-banner p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.btn-fb {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 22px;
+  border-radius: 999px;
+  background: #1877F2;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.92rem;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn-fb:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
