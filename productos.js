@@ -6,7 +6,10 @@ const PRODUCTOS = [
   {
     n: "Centros de mesa",
     c: "Fiestas y eventos",
-    fotos: [],
+    fotos: [
+      "imagenes/centrodemesa1.jpg",
+      "imagenes/centrodemesa2.jpg"
+    ],
     precio: "Precio según diseño"
   },
   {
@@ -40,7 +43,11 @@ const PRODUCTOS = [
   {
     n: "Tequileros",
     c: "Fiestas y eventos",
-    fotos: [],
+    fotos: [
+      "imagenes/tequilero.jpg",
+      "imagenes/tequilero1.jpg",
+      "imagenes/tequilero2.jpg"
+    ],
     precio: "$12"
   },
   {
@@ -90,6 +97,7 @@ const PRODUCTOS = [
     c: "Accesorios",
     fotos: [
       "imagenes/espejo1.jpg",
+      "imagenes/espejo3.jpg",
       "imagenes/encendedor_espejo.jpg"
     ],
     precio: "$13"
@@ -97,7 +105,10 @@ const PRODUCTOS = [
   {
     n: "Espejos tipo princesa",
     c: "Accesorios",
-    fotos: ["imagenes/espejo2.jpg"],
+    fotos: [
+      "imagenes/espejoprincesa.jpg",
+      "imagenes/espejo2.jpg"
+    ],
     precio: "$23"
   },
   {
@@ -139,7 +150,10 @@ const PRODUCTOS = [
   {
     n: "Destapadores de corcholata",
     c: "Llaveros y regalos",
-    fotos: ["imagenes/llavero y destapador.jpg"],
+    fotos: [
+      "imagenes/destapador1.jpg",
+      "imagenes/llavero y destapador.jpg"
+    ],
     precio: "$15"
   },
   {
@@ -174,7 +188,10 @@ const PRODUCTOS = [
   {
     n: "Figuras de yeso",
     c: "Llaveros y regalos",
-    fotos: [],
+    fotos: [
+      "imagenes/kityeso.jpg",
+      "imagenes/kityeso1.jpg"
+    ],
     precio: "$15"
   },
   {
@@ -200,6 +217,7 @@ const PRODUCTOS = [
     fotos: [
       "imagenes/rosario1.jpg",
       "imagenes/rosario2.jpg",
+      "imagenes/rosario3.jpg",
       "imagenes/rosariomini1.jpg"
     ],
     precio: "$20"
@@ -213,7 +231,13 @@ const PRODUCTOS = [
   {
     n: "Vela de cruz",
     c: "Religiosos y recuerdos",
-    fotos: [],
+    fotos: [
+      "imagenes/vela.jpg",
+      "imagenes/vela1.jpg",
+      "imagenes/vela2.jpg",
+      "imagenes/vela3.jpg",
+      "imagenes/vela4.jpg"
+    ],
     precio: "$20"
   },
   {
